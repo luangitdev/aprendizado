@@ -1,2 +1,2 @@
-# desafio_de_projeto_dio
+# Desafio de projeto GIT/GITHUB da DIO
 Destinado ao registro dos conhecimentos adquiridos na DIO
