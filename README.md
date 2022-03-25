@@ -1,3 +1,3 @@
 ### Destinado a anotações dos aprendizados adquiridos 🥇
-- Destinado ao registro dos conhecimentos adquiridos.
+- Registro dos conhecimentos adquiridos.
 - Dicas do mundo dev
