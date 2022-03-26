@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox - Wrap</title>
+
+    <style>
+        .flex-container{
+            display: flex;
+            height: auto;
+            border: 2px solid black;
+            padding: 1px;
+            max-width: 300px;
+        }
+
+        .item{
+            font-size: 24px;
+            height: 75px;
+            text-align: center;
+            min-width: 100px;
+        }
+
+        .nowrap{
+            flex-wrap: nowrap; /*Sem quebra de coluna*/
+        }
+
+        .wrap{
+            flex-wrap: wrap; /*Com quebra de coluna*/
+        }
+
+        .wrap-reverse{
+            flex-wrap: wrap-reverse; /*Aplica a lógica de quebra de coluna reversa*/
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+        .green{
+            background-color: green;
+        }
+
+        .orange{
+            background-color: orange;
+        }
+
+        .red{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1> No Wrap</h1>
+    <div class="flex-container">
+        <div class="item orange">1</div>
+        <div class="item green">2</div>
+        <div class="item blue">3</div>
+        <div class="item red">4</div>
+    </div>
+
+    <h1>Wrap</h1>
+    <div class="flex-container wrap">
+        <div class="item orange">1</div>
+        <div class="item green">2</div>
+        <div class="item blue">3</div>
+        <div class="item red">4</div>
+        <div class="item orange">5</div>
+        <div class="item green">6</div>
+        <div class="item blue">7</div>
+    </div>
+
+    <h1>Wrap Reverso</h1>
+    <div class="flex-container wrap-reverse">
+        <div class="item orange">1</div>
+        <div class="item green">2</div>
+        <div class="item blue">3</div>
+        <div class="item red">4</div>
+    </div>
+</body>
+</html>
